@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <script src="https://kit.fontawesome.com/ac80715e56.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" media="(max-width: 500px)" href="styles/max-width-500.css">
+  <link rel="stylesheet" media="(min-width: 501px" href="styles/desktop.css">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="logo-name-container">
+    <img class="logo-name-image" src="images/logo.svg" alt="Base Apparel">
+  </header>
+
+  <main>
+    <div class="hero-image">
+    </div>
+
+    <div class="announce-container">
+      <h2 class="coming-soon"><span class="we-are">WE'RE</span> COMING SOON</h2>
+      <p class="announcement-paragraph">Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form class="subscription-form" action="post">
+        <input class="email-input" type="text" placeholder="Email Address">
+        <i class="fas fa-exclamation-circle"></i>
+        <input class="email-submit-btn" id="email-submit-btn" type="button" value=">">
+        <p class="alert-message">Please provide a valid email</p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="mailto:tohid_d.milan@yahoo.com">Tohid Dalaei Milan</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
